@@ -64,3 +64,187 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+ /* universal header */
+header {
+	position:fixed;
+	top:0;
+	background-color:gainsboro;
+	width:100%;
+	margin:0;
+	display:flex;
+	justify-content: space-between;
+}
+
+header div{
+	margin:1% 5%;
+}
+
+header .navbar {
+	width: 70.5%;
+}
+
+header nav {
+	display:flex;
+	justify-content: space-between;
+	align-content: center;
+}
+
+header nav a{
+	color: dimgray;
+	font-size:15px;
+	text-decoration: none;
+	padding:1%;
+}
+
+header nav a:hover {
+	color:black;
+}
+
+/* universal .nonheader margin */
+.nonheader {
+	margin:0 5%;
+}
+
+/* index title section */
+.title-section {
+	border-bottom: 1px solid black;
+	padding:13% 0 7% 0;
+	display:flex;
+	justify-content: space-around;
+}
+
+.title-section div{
+	display: inline-block;
+}
+
+.title-section #lt-title {
+	width:379px;
+	height:379px;
+	text-align: center;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: center;
+	align-content: center;
+}
+
+.title-section h1 {
+	font-size: 60px;
+}
+
+.title-section a {
+	color: black;
+	text-decoration: none;
+	width: 150px;
+	padding:1%;
+	border: 1px solid black;
+}
+
+/* index info-1 section */
+.info-1 {
+	display:flex;
+	justify-content:space-between;
+	margin:2% 0;
+}
+
+.info-1 div{
+	width:48.8%;
+}
+
+/* index middle-img section */
+.middle-img {
+	display:flex;
+	justify-content: center;
+}
+
+/* index info-2 section */
+.info-2 {
+	display:flex;
+	justify-content: space-between;
+	margin:2% 0;
+}
+
+.info-2 div{
+	width:32%;
+}
+
+/* index contact section */
+.contact {
+	border-top: 1px solid black;
+	padding-top:4%;
+}
+
+/* services top image */
+.services-top-img {
+	margin-top:7%;
+	display:flex;
+	justify-content: center;
+}
+
+/* services title info */
+.services-title {
+	padding:2% 0;
+	border-bottom: 1px solid black;
+}
+
+.services-title h1 {
+	font-size:20px;
+}
+
+/* services middle section w/ boxes */
+.boxed-section {
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin:2% 0;
+}
+
+.box {
+	width:48%;
+	background-color:lightgrey;
+	border:1px solid black;
+	margin:2% 0;
+}
+
+.box h2,.box p {
+	margin:2%;
+}
+
+.box div {
+	margin:4% 2%;
+}
+
+.learn-more a {
+	padding:.5% 4%;
+	font-size:12px;
+	border:1px solid black;
+	border-radius:5px;
+	text-decoration:none;
+	color:black;
+	background-color:whitesmoke;
+	margin:50% 0;
+}
+
+/* services facts section */
+.facts{
+	display:flex;
+	justify-content: space-between;
+	border-top:2px solid black;
+	padding-top:4%;
+}
+
+.facts-text {
+	width:420px;
+}
+
+.facts ul {
+	list-style-type:disc;
+	margin:4% 5%;
+	line-height: 30px;
+}
+
+/* universal footer */
+footer {
+	text-align:center;
+	margin:7% 7% 10% 7%;
+}
