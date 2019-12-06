@@ -243,8 +243,60 @@ header nav a:hover {
 	line-height: 30px;
 }
 
+/* product top photo */
+.product-top-img {
+	margin-top:7.5%;
+	display:flex;
+	justify-content: center;
+}
+
+/* product info section */
+.product-info {
+	padding:2% 0;
+}
+
+.product-info p {
+	margin:2% 0;
+}
+
+.product-info h2 {
+	font-size:35px;
+	text-align: center;
+}
+
+/* testimonials section */
+
+.testimonials {
+	border:2px solid black;
+	border-radius: 10px;
+	background-color:lightgray;
+	display:flex;
+	justify-content: space-around;
+}
+
+.testimonials div {
+	width:200px;
+	margin:5% 0;
+	display:flex;
+	flex-direction: column;
+	align-content: center;
+}
+
+.testimonials h2 {
+	text-align: center;
+	margin:5%;
+}
+
+.testimonials img {
+	border:1px solid black;
+}
+
 /* universal footer */
 footer {
 	text-align:center;
 	margin:7% 7% 10% 7%;
+}
+
+#title-image {
+	width:880px;
 }
