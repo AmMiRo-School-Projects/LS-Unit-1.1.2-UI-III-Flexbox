@@ -111,11 +111,7 @@ header nav a:hover {
 	border-bottom: 1px solid black;
 	padding:13% 0 7% 0;
 	display:flex;
-	justify-content: space-around;
-}
-
-.title-section div{
-	display: inline-block;
+	justify-content: space-between;
 }
 
 .title-section #lt-title {
@@ -188,7 +184,7 @@ header nav a:hover {
 }
 
 .services-title h1 {
-	font-size:20px;
+	font-size:30px;
 }
 
 /* services middle section w/ boxes */
@@ -238,7 +234,7 @@ header nav a:hover {
 }
 
 .facts ul {
-	list-style-type:disc;
+	list-style-type:square;
 	margin:4% 5%;
 	line-height: 30px;
 }
